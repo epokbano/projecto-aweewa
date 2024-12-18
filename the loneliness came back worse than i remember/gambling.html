@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./Style/Img/mizu5.ico" />
+    <!-- https://sass-lang.com/ -->
+    <link rel="stylesheet" href="./Style/style.css" />
+    <script src="./Scripts/values.js" defer></script>
+    <script src="./Scripts/applicationMenu.js" defer></script>
+    <script src="./Scripts/gallery.js" defer></script>
+    <script src="./Scripts/gambling.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__menu" id="menu">
+        <h1>Menuuu</h1>
+      </div>
+      <div class="balance">
+        <p class ="balance-display2" id="balance-display"></span> 
+      </div>
+    </header>
+
+    <header class="header__menu--open" id="menuContainer">
+      <ul>
+        <li><a href="index.html">Home page</a></li>
+        <li><a href="galery.html">Galery</a></li>
+        <li><a href="shop.html">MizuShop</a></li>
+        <li><a href="calculator.html">Calculator</a></li>
+        
+        
+        <li>
+          <button class="header__menu--close__list" id="menu--close">
+            Close
+          </button>
+        </li>
+      </ul>
+    </header>
+    <div class="game-container">
+        <h2>ile dajesz</h2>
+        <input type="number" id="bet-amount" placeholder="Enter bet amount" min="1">
+        <div>
+            <button id="heads-btn">orzel</button>
+            <button id="tails-btn">reszka</button>
+        </div>
+        
+
+        <div id="result"></div>
+    </div>
+  </div>
+  </body>
+</html>
